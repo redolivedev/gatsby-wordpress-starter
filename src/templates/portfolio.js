@@ -9,6 +9,7 @@ const FeaturedImage = styled.img`
 
 export default ({pageContext}) => (
   <Layout>
+  {console.log(pageContext)}
     <h1>
       {pageContext.title}
     </h1>
@@ -20,5 +21,7 @@ export default ({pageContext}) => (
     </a>
     <FeaturedImage src={pageContext.featured_media.source_url} />
     <div dangerouslySetInnerHTML={{__html: pageContext.content}} />
+    {pageContext.acf.flexible_content_portfolio.map((section, index) => (
+      <div id={index}>{section.content}</div>))}
   </Layout>
 );

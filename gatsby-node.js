@@ -31,7 +31,6 @@ exports.createPages = ({ graphql, actions }) => {
                 template
                 title
                 content
-                template
               }
             }
           }
@@ -79,13 +78,21 @@ exports.createPages = ({ graphql, actions }) => {
                     id
                     title
                     slug
-                    excerpt
                     content
                     featured_media{
                       source_url
                     }
                     acf{
                       portfolio_url
+                      flexible_content_portfolio{
+                        __typename
+                        ... on WordPressAcf_section_type_1{
+                          content
+                        }
+                        ... on WordPressAcf_section_type_2{
+                          content
+                        }
+                      }
                     }
                   }
                 }

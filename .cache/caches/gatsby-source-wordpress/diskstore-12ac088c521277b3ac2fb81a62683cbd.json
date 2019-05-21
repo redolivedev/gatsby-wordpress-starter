@@ -1,0 +1,1 @@
+{"expireTime":9007200808808898000,"key":"create-remote-file-node-http://test.test/wp-content/uploads/2019/03/placeholder-600x600.jpg","val":{"server":"nginx/1.15.8","date":"Sun, 31 Mar 2019 21:31:46 GMT","content-type":"image/jpeg","content-length":"48761","last-modified":"Mon, 25 Mar 2019 03:15:23 GMT","connection":"close","etag":"\"5c9847cb-be79\"","accept-ranges":"bytes"}}

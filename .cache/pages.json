@@ -1,0 +1,32 @@
+[
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-html-516",
+        "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-22d",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "home-75b",
+        "path": "/home/"
+    },
+    {
+        "componentChunkName": "component---src-templates-portfolio-under-content-js",
+        "jsonName": "portfolio-964",
+        "path": "/portfolio/"
+    },
+    {
+        "componentChunkName": "component---src-templates-portfolio-js",
+        "jsonName": "portfolio-portfolio-title-0ed",
+        "path": "/portfolio/portfolio-title/"
+    }
+]
